@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="lab1_postlab.css"?>
+<books>
+<heading> Welcome to Enterprise Programming </heading>
+<book1>
+<title>TITLE :- THE MARVEL </title>
+<author> AUTHOR :- STANLEE</author>
+<publishment> PUBLISHER :- UNIVERSAL</publishment>
+<edition> EDITION :- 3 </edition>
+<price> Price :- 300 </price>
+<category>Category :- COMICS </category>
+</book1>
+
+<book2>
+<title>TITLE :- THE ALADDIN</title>
+<author> AUTHOR :- Antoine Galland</author>
+<publishment> PUBLISHER :- UNIVERSAL</publishment>
+<edition> EDITION :- 5 </edition>
+<price> Price :- 500 </price>
+<category>Category :- DRAMATIC</category>
+</book2>
+
+<book3>
+<title>TITLE :- IT </title>
+<author> AUTHOR :- STEPHEN KING </author>
+<publishment> PUBLISHER :- ROBBINSONS </publishment>
+<edition> EDITION :- 7 </edition>
+<price> Price :- 900 </price>
+
+<category>Category :- HORROR</category>
+</book3>
+
+<book4>
+<title>TITLE :- HOUSE OF LEAVES </title>
+<author> AUTHOR :Mark Z. Danielewski,</author>
+<publishment> PUBLISHER :- PANTHEON</publishment>
+<edition> EDITION :- 3 </edition>
+<price> Price :- 1100 </price>
+<category>Category :- HORROR</category>
+</book4>
+</books>

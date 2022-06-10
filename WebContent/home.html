@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="home.css">
+</head>
+<title>CAR GURU</title>
+<body>
+
+<div class="topnav">
+    <img src="b.jpg" alt="Avatar" class="avatar pos">
+   <!-- <button id="cars" class="button button3 button2 shape h1" >Tesla Cars</button> -->
+   <!-- <button id="newsroom" class="button button3 button2 shape h3" >News Room</button>-->
+    <button id="help" class="button button3 button2 shape h4" >Help</button>
+    <button id="about" class="button button3 button2 shape h1" >About</button>
+    <button id="login" class="button button3 button2 shape h5" >Login/Register</button>
+    <button id="car" class="button button3 button2 shape h3" >Buy car</button>
+    
+   
+    <input type="text" placeholder="Search" class="h6">
+    
+    
+</div>
+ 
+
+<form class="box" action="home.html"  method="post">
+  <h1>
+      <p class="p1">Find your right car</p>
+  </h1>
+
+  
+ 
+
+  <form>
+    <select name = "dropdown" class="button11 button13 button12 shape ">
+      <option value = "select" selected>Select Type of car</option>
+       <option value = "usedcars" >Used cars</option>
+       <option value = "newcars">New cars</option>
+    </select>
+    <br>
+    <div>
+      <form action="/action_page.php" >
+        <input type="radio" > By budget</input>
+        <input type="radio" > By brand</input>
+      
+       
+      </form>
+      <select name = "dropdown" class="button11 button13 button12 shape " >
+        <option value = "select" selected>Select budget</option>
+         <option value = "usedcars" >1L-5L</option>
+         <option value = "usedcars" >5L-10L</option>
+         <option value = "usedcars" >10L-15L</option>
+         <option value = "usedcars" >15L-20L</option>
+         <option value = "usedcars" >20L-35L</option>
+         <option value = "usedcars" >35L-50L</option>
+         <option value = "usedcars" >50L-1Cr</option>
+         <option value = "usedcars" >Above 1Cr</option>
+      </select>
+      <br>
+      <select name = "dropdown" class="button11 button13 button12 shape ">
+        <option value = "select" selected>All type of vehicles</option>
+         <option value = "usedcars" >Sedan</option>
+         <option value = "newcars">Suv</option>
+         <option value = "newcars">cuv</option>
+         <option value = "newcars">Muv</option>
+         <option value = "newcars">Luaxry</option>
+      </select>
+      <input type="submit" name="" value="search" onclick="validate()">
+    </div>
+    
+    
+    
+ </form>
+  
+ 
+  
+</form>
+
+
+
+
+
+</body>
+</html>
+
+<script src="home.js"></script>
+
+
